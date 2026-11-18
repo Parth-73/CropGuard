@@ -1,0 +1,192 @@
+{
+  "split": "test",
+  "confidence_threshold": 0.6,
+  "imgsz": 512,
+  "mask_iou_match_threshold": 0.5,
+  "per_class": {
+    "weed": {
+      "predicted": 224,
+      "reference": 1712,
+      "matched": 202,
+      "precision_at_mask_iou_0_5": 0.9017857142857143,
+      "recall_at_mask_iou_0_5": 0.11799065420560748,
+      "matched_centroid_mean_error_px": 1.6438910732749725,
+      "matched_centroid_p95_error_px": 5.846675454957533
+    },
+    "maize": {
+      "predicted": 165,
+      "reference": 256,
+      "matched": 150,
+      "precision_at_mask_iou_0_5": 0.9090909090909091,
+      "recall_at_mask_iou_0_5": 0.5859375,
+      "matched_centroid_mean_error_px": 2.3993633999264614,
+      "matched_centroid_p95_error_px": 5.309359762778443
+    }
+  },
+  "semantic_iou": {
+    "background": 0.9441547604067327,
+    "maize": 0.4540423160443531,
+    "weed": 0.22181855307082854
+  },
+  "weed_predictions_overlapping_crop_by_at_least_10_percent": 1,
+  "predicted_weeds": 224,
+  "per_image": [
+    {
+      "image": "2023-05-25_0109.png",
+      "references": 22,
+      "predictions": 2,
+      "matched": 2
+    },
+    {
+      "image": "2023-05-25_0114.png",
+      "references": 28,
+      "predictions": 6,
+      "matched": 5
+    },
+    {
+      "image": "2023-05-25_0170.png",
+      "references": 26,
+      "predictions": 6,
+      "matched": 6
+    },
+    {
+      "image": "2023-05-25_0183.png",
+      "references": 19,
+      "predictions": 9,
+      "matched": 7
+    },
+    {
+      "image": "2023-05-25_0681.png",
+      "references": 94,
+      "predictions": 17,
+      "matched": 17
+    },
+    {
+      "image": "2023-05-25_0685.png",
+      "references": 137,
+      "predictions": 15,
+      "matched": 14
+    },
+    {
+      "image": "2023-05-25_0750.png",
+      "references": 87,
+      "predictions": 7,
+      "matched": 4
+    },
+    {
+      "image": "2023-05-25_0786.png",
+      "references": 101,
+      "predictions": 15,
+      "matched": 13
+    },
+    {
+      "image": "2023-05-30_0039.png",
+      "references": 43,
+      "predictions": 0,
+      "matched": 0
+    },
+    {
+      "image": "2023-05-30_0044.png",
+      "references": 57,
+      "predictions": 11,
+      "matched": 9
+    },
+    {
+      "image": "2023-05-30_0099.png",
+      "references": 53,
+      "predictions": 1,
+      "matched": 1
+    },
+    {
+      "image": "2023-05-30_0114.png",
+      "references": 40,
+      "predictions": 4,
+      "matched": 3
+    },
+    {
+      "image": "2023-05-30_0649.png",
+      "references": 99,
+      "predictions": 8,
+      "matched": 7
+    },
+    {
+      "image": "2023-05-30_0652.png",
+      "references": 60,
+      "predictions": 9,
+      "matched": 8
+    },
+    {
+      "image": "2023-05-30_0720.png",
+      "references": 62,
+      "predictions": 14,
+      "matched": 14
+    },
+    {
+      "image": "2023-05-30_0750.png",
+      "references": 81,
+      "predictions": 15,
+      "matched": 12
+    },
+    {
+      "image": "2023-06-06_0161.png",
+      "references": 111,
+      "predictions": 28,
+      "matched": 25
+    },
+    {
+      "image": "2023-06-06_0166.png",
+      "references": 76,
+      "predictions": 3,
+      "matched": 2
+    },
+    {
+      "image": "2023-06-06_0176.png",
+      "references": 157,
+      "predictions": 18,
+      "matched": 15
+    },
+    {
+      "image": "2023-06-06_0231.png",
+      "references": 73,
+      "predictions": 25,
+      "matched": 24
+    },
+    {
+      "image": "2023-06-06_0667.png",
+      "references": 106,
+      "predictions": 36,
+      "matched": 36
+    },
+    {
+      "image": "2023-06-06_0670.png",
+      "references": 107,
+      "predictions": 36,
+      "matched": 33
+    },
+    {
+      "image": "2023-06-06_0736.png",
+      "references": 80,
+      "predictions": 24,
+      "matched": 23
+    },
+    {
+      "image": "2023-06-06_0770.png",
+      "references": 84,
+      "predictions": 45,
+      "matched": 42
+    },
+    {
+      "image": "2023-06-15_0169.png",
+      "references": 84,
+      "predictions": 14,
+      "matched": 13
+    },
+    {
+      "image": "2023-06-15_0735.png",
+      "references": 81,
+      "predictions": 21,
+      "matched": 17
+    }
+  ],
+  "limitations": "Centroid error covers correctly classified matched masks only; unmatched plants counted by precision/recall. Greedy matching and original dense masks differ from polygon-based COCO mAP. No stem, physical distance, or new-field accuracy is established."
+}

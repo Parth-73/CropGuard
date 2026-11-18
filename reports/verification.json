@@ -1,0 +1,27 @@
+{
+  "epochs_verified": 60,
+  "records_verified": 7,
+  "video_frames": 5,
+  "video_track_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    14
+  ],
+  "checks": [
+    "original-resolution RLE roundtrip",
+    "areas and in-mask points",
+    "tracking IDs",
+    "CPU inference compatibility",
+    "run completion records",
+    "checkpoint SHA-256",
+    "unsupported crop rejection"
+  ]
+}

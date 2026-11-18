@@ -1,0 +1,141 @@
+{
+  "selection_rule": "Highest validation mask mAP50-95; no test images used",
+  "selected_imgsz": 512,
+  "reports": [
+    {
+      "imgsz": 512,
+      "split": "val",
+      "metrics": {
+        "metrics/precision(B)": 0.7649340016391994,
+        "metrics/recall(B)": 0.6234848996689413,
+        "metrics/mAP50(B)": 0.6538488118902546,
+        "metrics/mAP50-95(B)": 0.3433447027157481,
+        "metrics/precision(M)": 0.6785004893254922,
+        "metrics/recall(M)": 0.5056060794871412,
+        "metrics/mAP50(M)": 0.5173946363501603,
+        "metrics/mAP50-95(M)": 0.15830671026508517,
+        "fitness": 0.5016514129808333
+      },
+      "per_class": [
+        {
+          "label": "weed",
+          "box_precision": 0.7149190008241075,
+          "box_recall": 0.4664819944598338,
+          "box_map50": 0.5020350610787037,
+          "box_map50_95": 0.22781697227975842,
+          "mask_precision": 0.6526292439560039,
+          "mask_recall": 0.37263122771042434,
+          "mask_map50": 0.41274332652499957,
+          "mask_map50_95": 0.13508719698661004
+        },
+        {
+          "label": "maize",
+          "box_precision": 0.8149490024542915,
+          "box_recall": 0.7804878048780488,
+          "box_map50": 0.8056625627018054,
+          "box_map50_95": 0.4588724331517378,
+          "mask_precision": 0.7043717346949805,
+          "mask_recall": 0.6385809312638581,
+          "mask_map50": 0.6220459461753208,
+          "mask_map50_95": 0.1815262235435603
+        }
+      ],
+      "speed_ms": {
+        "preprocess": 0.3499615385617989,
+        "inference": 9.51079999979881,
+        "loss": 0.0011961537193900976,
+        "postprocess": 2.9570807690526215
+      }
+    },
+    {
+      "imgsz": 768,
+      "split": "val",
+      "metrics": {
+        "metrics/precision(B)": 0.7645264417576942,
+        "metrics/recall(B)": 0.6551666368689892,
+        "metrics/mAP50(B)": 0.6852357531483737,
+        "metrics/mAP50-95(B)": 0.3580556503052161,
+        "metrics/precision(M)": 0.7021708356095161,
+        "metrics/recall(M)": 0.5250649967866847,
+        "metrics/mAP50(M)": 0.5339189030822034,
+        "metrics/mAP50-95(M)": 0.15481252911522042,
+        "fitness": 0.5128681794204365
+      },
+      "per_class": [
+        {
+          "label": "weed",
+          "box_precision": 0.710891341936503,
+          "box_recall": 0.5122156636665405,
+          "box_map50": 0.5557860479262036,
+          "box_map50_95": 0.25791772985070033,
+          "mask_precision": 0.6920482271843872,
+          "mask_recall": 0.4188365650969529,
+          "mask_map50": 0.4652828198732205,
+          "mask_map50_95": 0.1530582332606994
+        },
+        {
+          "label": "maize",
+          "box_precision": 0.8181615415788853,
+          "box_recall": 0.7981176100714381,
+          "box_map50": 0.8146854583705438,
+          "box_map50_95": 0.4581935707597318,
+          "mask_precision": 0.712293444034645,
+          "mask_recall": 0.6312934284764167,
+          "mask_map50": 0.6025549862911861,
+          "mask_map50_95": 0.15656682496974147
+        }
+      ],
+      "speed_ms": {
+        "preprocess": 3.1672923077376955,
+        "inference": 19.14922692314856,
+        "loss": 0.0009269231388596102,
+        "postprocess": 4.321734615167281
+      }
+    },
+    {
+      "imgsz": 1024,
+      "split": "val",
+      "metrics": {
+        "metrics/precision(B)": 0.7568939871560108,
+        "metrics/recall(B)": 0.635541278483829,
+        "metrics/mAP50(B)": 0.6774751751786401,
+        "metrics/mAP50-95(B)": 0.34480759625356316,
+        "metrics/precision(M)": 0.6472096668384295,
+        "metrics/recall(M)": 0.5131852270423989,
+        "metrics/mAP50(M)": 0.48844444704687195,
+        "metrics/mAP50-95(M)": 0.13425650380918336,
+        "fitness": 0.4790641000627465
+      },
+      "per_class": [
+        {
+          "label": "weed",
+          "box_precision": 0.7335059484204476,
+          "box_recall": 0.48365650969529084,
+          "box_map50": 0.547818053173007,
+          "box_map50_95": 0.24612866119485272,
+          "mask_precision": 0.6828773659460445,
+          "mask_recall": 0.4277008310249307,
+          "mask_map50": 0.45213637671479223,
+          "mask_map50_95": 0.1396284049973179
+        },
+        {
+          "label": "maize",
+          "box_precision": 0.7802820258915739,
+          "box_recall": 0.7874260472723672,
+          "box_map50": 0.8071322971842732,
+          "box_map50_95": 0.44348653131227345,
+          "mask_precision": 0.6115419677308144,
+          "mask_recall": 0.5986696230598669,
+          "mask_map50": 0.5247525173789517,
+          "mask_map50_95": 0.12888460262104884
+        }
+      ],
+      "speed_ms": {
+        "preprocess": 4.212146153944419,
+        "inference": 17.88160384631528,
+        "loss": 0.0006692305480380758,
+        "postprocess": 7.0983576924146075
+      }
+    }
+  ]
+}

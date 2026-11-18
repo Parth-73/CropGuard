@@ -1,0 +1,49 @@
+{
+  "available_class_ids": [
+    0,
+    1
+  ],
+  "supported_primary_crops": [
+    "maize"
+  ],
+  "partial_taxonomy": true,
+  "weights_sha256": "cba6a5814373e4e9973ef585f44136f8160db9eb2cec02bfd038d2d7edeff4b6",
+  "dataset": {
+    "root": "data/weedsgalore",
+    "splits": {
+      "train": {
+        "images": 104,
+        "backgrounds": 0,
+        "instances_by_class": {
+          "0": 6493,
+          "1": 1461
+        }
+      },
+      "val": {
+        "images": 26,
+        "backgrounds": 0,
+        "instances_by_class": {
+          "0": 1805,
+          "1": 451
+        }
+      }
+    },
+    "warnings": [
+      "train: classes with no instances: [2, 3, 4, 5]",
+      "val: classes with no instances: [2, 3, 4, 5]"
+    ]
+  },
+  "evaluation_status": "evaluated on official image test split; not independently field validated",
+  "test_metrics": {
+    "metrics/precision(B)": 0.7629139240891684,
+    "metrics/recall(B)": 0.6007437426814988,
+    "metrics/mAP50(B)": 0.6491626308964384,
+    "metrics/mAP50-95(B)": 0.3464790647871333,
+    "metrics/precision(M)": 0.6518780002740924,
+    "metrics/recall(M)": 0.5035076204864903,
+    "metrics/mAP50(M)": 0.521833374783766,
+    "metrics/mAP50-95(M)": 0.1626593057083001,
+    "fitness": 0.5091383704954334
+  },
+  "recommended_imgsz": 512
+}

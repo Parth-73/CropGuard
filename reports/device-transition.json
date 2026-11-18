@@ -1,0 +1,7 @@
+{
+  "completed_cpu_epoch": 36,
+  "from": "torch 2.15.0+cpu",
+  "to": "torch 2.11.0+cu128",
+  "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU",
+  "mode": "resume with optimizer, scheduler, and epoch restoration"
+}

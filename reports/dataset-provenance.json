@@ -1,0 +1,35 @@
+{
+  "dataset": "WeedsGalore",
+  "source": "https://doidata.gfz.de/weedsgalore_e_celikkan_2024/weedsgalore-dataset.zip",
+  "paper": "https://openaccess.thecvf.com/content/WACV2025/html/Celikkan_WeedsGalore_A_Multispectral_and_Multitemporal_UAV-Based_Dataset_for_Crop_and_WACV_2025_paper.html",
+  "license": "CC BY 4.0",
+  "archive_sha256": "5d8395c274d990cd8fbfa728445f65c398be2b5d777bd5145eb9ae5ca4d9b68c",
+  "supported_primary_crops": [
+    "maize"
+  ],
+  "splits": {
+    "train": {
+      "images": 104,
+      "instances": {
+        "1": 1461,
+        "0": 6493
+      }
+    },
+    "val": {
+      "images": 26,
+      "instances": {
+        "1": 451,
+        "0": 1805
+      }
+    },
+    "test": {
+      "images": 26,
+      "instances": {
+        "0": 1708,
+        "1": 256
+      }
+    }
+  },
+  "conversion": "Official instance IDs labeled by semantic masks; external contours bridge disconnected leaves; polygon holes are not represented; tiny contours under 2 px area omitted. RGB uint16 converted by fixed /257 scale.",
+  "split_source": "https://raw.githubusercontent.com/GFZ/weedsgalore/main/src/datasets/weedsgalore/splits/"
+}

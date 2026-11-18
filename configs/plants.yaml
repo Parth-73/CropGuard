@@ -1,0 +1,12 @@
+# Keep these IDs fixed in all annotations, checkpoints, and deployments.
+path: ../data/plants
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: weed
+  1: maize
+  2: tomato
+  3: chilli
+  4: other_crop
+  5: unknown_plant
